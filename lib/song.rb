@@ -12,6 +12,10 @@ class Song
     @@all
   end
   def artist_name
-    self.artist.name
+    if self.artist.name.legnth == 0 
+      nil 
+    else
+      self.artist.name
+    end
   end
 end
