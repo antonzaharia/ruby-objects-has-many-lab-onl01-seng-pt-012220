@@ -14,10 +14,10 @@ class Post
     @@all
   end
   def author_name
-    if self.author.name = nil
+    if @author = nil
       return nil
     else
-      self.author.name
+      @author
     end
   end
   
