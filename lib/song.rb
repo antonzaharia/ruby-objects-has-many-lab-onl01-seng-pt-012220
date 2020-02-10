@@ -9,6 +9,6 @@ class Song
     @@all << self
   end
   def all
-    return @@all
+    @@all
   end
 end
