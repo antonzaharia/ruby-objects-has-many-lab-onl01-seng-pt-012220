@@ -12,10 +12,6 @@ class Song
     @@all
   end
   def artist_name
-    if defined?(self.artist)
-      nil 
-    else
-      self.artist.name 
-    end
+    self.artist.name
   end
 end
