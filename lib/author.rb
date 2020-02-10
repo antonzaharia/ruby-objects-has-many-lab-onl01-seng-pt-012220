@@ -8,6 +8,6 @@ class Author
     @@posts << self
   end
   def posts
-    @@posts
+    Post.all.
   end
 end
