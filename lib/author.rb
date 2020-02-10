@@ -16,6 +16,6 @@ class Author
     add_post(new)
   end
   def post_count
-    
+    Post.
   end
 end
