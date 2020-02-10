@@ -7,4 +7,7 @@ class Author
     @name = name
     @@posts << self
   end
+  def posts
+    @@posts
+  end
 end
