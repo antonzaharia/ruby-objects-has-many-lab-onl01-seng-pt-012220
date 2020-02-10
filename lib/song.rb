@@ -15,4 +15,5 @@ class Song
     if definded?(self.artist)
     self.artist.name
   end
+  end
 end
