@@ -14,7 +14,7 @@ class Post
     @@all
   end
   def author_name
-    if @author = nil
+    if self.author.name = nil
       return nil
     else
       self.author.name
