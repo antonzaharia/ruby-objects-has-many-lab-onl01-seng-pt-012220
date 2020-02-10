@@ -12,7 +12,7 @@ class Song
     @@all
   end
   def artist_name
-    if definded?(self.artist)
+    if defined?(self.artist)
     self.artist.name
   end
   end
